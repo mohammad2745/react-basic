@@ -9,6 +9,13 @@ Currently, two official plugins are available:
 
 
 # Create Project
+
 ```sh
   npm create vite@latest
+```
+
+<p>Prop type for prop check</p>
+
+```sh
+  npm i prop-types
 ```

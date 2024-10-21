@@ -1,4 +1,5 @@
 import { Username } from "./Username"
+import PropTypes from "prop-types"
 
 export function UserProfile() {
   return (
@@ -10,4 +11,8 @@ export function UserProfile() {
       </div>
     </div>
   )
+}
+
+UserProfile.prototype = {
+  username: PropTypes.string.isRequired 
 }
